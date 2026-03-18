@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+body {
+  font-family: "Prompt", sans-serif;
+  background-color:  #d1d9d3;
+  color: #2c3e50;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  background-image:
+    radial-gradient(
+      at 0% 0%,
+      hsla(145, 63%, 42%, 1) 0px,
+      transparent 50%
+    ),
+    radial-gradient(at 100% 100%, rgb(207, 36, 36) 0px, transparent 50%),
+    radial-gradient(
+      at 0% 100%,
+      hsla(33, 85%, 55%, 0.4) 0px,
+      transparent 50%
+    );
+}
